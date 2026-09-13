@@ -22,3 +22,13 @@ I used the AI-generated Student class for the Part C comparison. The AI solution
 
 ### What I learned
 Python generally allows direct access to attributes, so getter and setter methods are not always necessary. If controlled access to an attribute is needed, Python's `property` feature can be used.
+
+# AI Log — Lab 2
+
+## Step 1: Prompt Given
+> "Write a Python function that removes duplicate values from a list."
+
+## Step 2: Assistant's Response
+```python
+def remove_duplicates(my_list):
+    return list(set(my_list))
